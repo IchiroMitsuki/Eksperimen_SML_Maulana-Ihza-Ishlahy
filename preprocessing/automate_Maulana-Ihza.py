@@ -5,8 +5,8 @@ import os
 
 def run_preprocessing():
     # Mengatur path relatif (karena script ini berada di dalam folder 'preprocessing')
-    raw_data_path = '../namadataset_raw/Japan_ImbalancePrice.csv'
-    save_dir = 'namadataset_preprocessing'
+    raw_data_path = '../Japan_Electricity_Market-ImbalancePrices_raw/Japan_ImbalancePrice.csv'
+    save_dir = 'Japan_Electricity_Market-ImbalancePrices_preprocessing'
     
     # Membuat folder output jika belum ada
     os.makedirs(save_dir, exist_ok=True)
@@ -42,7 +42,7 @@ def run_preprocessing():
     X_train_df = pd.DataFrame(X_train_scaled, columns=X.columns)
     X_test_df = pd.DataFrame(X_test_scaled, columns=X.columns)
     
-    # 6. Menyimpan dataset yang siap dilatih ke folder namadataset_preprocessing
+    # 6. Menyimpan dataset yang siap dilatih ke folder Japan_Electricity_Market-ImbalancePrices_preprocessing
     X_train_df.to_csv(f'{save_dir}/X_train.csv', index=False)
     X_test_df.to_csv(f'{save_dir}/X_test.csv', index=False)
     y_train.to_csv(f'{save_dir}/y_train.csv', index=False)
