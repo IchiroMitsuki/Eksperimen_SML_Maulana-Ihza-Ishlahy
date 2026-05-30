@@ -5,7 +5,7 @@ import os
 
 def run_preprocessing():
     # Mengatur path relatif (karena script ini berada di dalam folder 'preprocessing')
-    raw_data_path = '../Japan_Electricity_Market-ImbalancePrices_raw/Japan_ImbalancePrice.csv'
+    raw_data_path = 'Japan_Electricity_Market-ImbalancePrices_raw/Japan_ImbalancePrice.csv'
     save_dir = 'Japan_Electricity_Market-ImbalancePrices_preprocessing'
     
     # Membuat folder output jika belum ada
