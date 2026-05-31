@@ -1,0 +1,33 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 2.19.0
+model_size_bytes: 370881806
+model_uuid: 98b7f0c7b13d40d594ac29dc8ee2f84b
+run_id: c0d0b62288964e0580d99b71cbbd1218
+signature:
+  inputs: '[{"type": "double", "name": "Hokkaido_ibprice", "required": true}, {"type":
+    "double", "name": "Tohoku_ibprice", "required": true}, {"type": "double", "name":
+    "Chubu_ibprice", "required": true}, {"type": "double", "name": "Hokuriku_ibprice",
+    "required": true}, {"type": "double", "name": "Kansai_ibprice", "required": true},
+    {"type": "double", "name": "Chugoku_ibprice", "required": true}, {"type": "double",
+    "name": "Shikoku_ibprice", "required": true}, {"type": "double", "name": "Kyushu_ibprice",
+    "required": true}, {"type": "double", "name": "hour", "required": true}, {"type":
+    "double", "name": "day_of_week", "required": true}, {"type": "double", "name":
+    "month", "required": true}, {"type": "double", "name": "is_weekend", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2026-05-31 09:53:28.155391'

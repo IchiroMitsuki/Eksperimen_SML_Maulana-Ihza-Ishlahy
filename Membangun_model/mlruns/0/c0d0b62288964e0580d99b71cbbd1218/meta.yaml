@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Dokumen/Repository%20GitHub/Eksperimen_SML_Maulana-Ihza-Ishlahy/Membangun_model/mlruns/0/c0d0b62288964e0580d99b71cbbd1218/artifacts
+end_time: 1780221235789
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0d0b62288964e0580d99b71cbbd1218
+run_name: Basic_Model
+run_uuid: c0d0b62288964e0580d99b71cbbd1218
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780221108662
+status: 3
+tags: []
+user_id: User

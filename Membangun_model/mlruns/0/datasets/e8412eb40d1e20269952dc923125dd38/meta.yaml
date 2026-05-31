@@ -1,0 +1,16 @@
+digest: cbe4dae6
+name: dataset
+profile: '{"num_rows": 59560, "num_elements": 714720}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Hokkaido_ibprice", "required":
+  true}, {"type": "double", "name": "Tohoku_ibprice", "required": true}, {"type":
+  "double", "name": "Chubu_ibprice", "required": true}, {"type": "double", "name":
+  "Hokuriku_ibprice", "required": true}, {"type": "double", "name": "Kansai_ibprice",
+  "required": true}, {"type": "double", "name": "Chugoku_ibprice", "required": true},
+  {"type": "double", "name": "Shikoku_ibprice", "required": true}, {"type": "double",
+  "name": "Kyushu_ibprice", "required": true}, {"type": "double", "name": "hour",
+  "required": true}, {"type": "double", "name": "day_of_week", "required": true},
+  {"type": "double", "name": "month", "required": true}, {"type": "double", "name":
+  "is_weekend", "required": true}]}'
+source: '{"tags": {"mlflow.user": "User", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "62b69291a8fc3e45228c743f2af356e2da5c8e74"}}'
+source_type: code
